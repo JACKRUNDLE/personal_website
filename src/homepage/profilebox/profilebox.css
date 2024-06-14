@@ -1,0 +1,106 @@
+
+.profile-outline {
+    display: flex; 
+    position: relative;
+    background: #303C6C;
+    width: auto;
+    height: 85vw;
+    box-sizing: border-box;
+    border-left: 2vw solid #303C6C;
+    border-right: 2vw solid #303C6C;
+    border-top: 1.5vw solid #303C6C;
+    border-bottom: 1.5vw solid #303C6C;
+}
+.profile-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #303C6C;
+    border: 2px solid #F4976C;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.headshot{
+    width: 25vw;
+    height: 25vw;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.content {
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background: rgba(0, 0, 0, 0);
+    border: 5px #F4976C solid;
+    margin-top: 20px; 
+}
+.iconandtextcontainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px; 
+}
+.iconsandtext{
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    
+}
+
+.icon{
+    width: 5vw;
+    height: auto;
+    background-color: #303C6C;
+    margin-right: 6vw; 
+    margin-left: 1vw; 
+}
+
+.text {
+    color: #FFF;
+    font-family: "JetBrains Mono";
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: normal;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 35, 35, 0.3); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+.popup-content {
+    background-color: #303C6C;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: auto;
+    max-width: 400px; /* Maximum width, but can be less */
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    z-index: 1001; /* Above the overlay */
+}

@@ -1,0 +1,39 @@
+.headerbox{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 420px;
+    background: #F4976C;
+
+}
+
+.bannerimage{
+    box-sizing: border-box;
+    width: 100%;
+    border-left: 2vw solid #F4976C;
+    border-right: 2vw solid #F4976C;
+    border-top: 1.5vw solid #F4976C;
+    border-bottom: 1.5vw solid #F4976C;
+    height: 100%;
+}
+
+.ProfileBox {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+
+}
+.Outer-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.PageBottom{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:flex-start;
+}
